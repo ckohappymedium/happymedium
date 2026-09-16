@@ -9,24 +9,27 @@ import Layout from '../layouts/Layout.astro';
   </section>
 
 <style>
-.hero {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  body {
+    background-color: #333;
+  }
 
-.hero h1, .hero p {
-  margin-bottom: 1rem;
-}
-
-.hero h1, .hero p {
-  margin-bottom: 1rem;
-}
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333; /* Updated background color */
+    color: #999; /* Updated text color */
+  }
+  
+  .hero h1, .hero p {
+    margin-bottom: 1rem;
+    color: #999; /* Updated text color for h1 and p */
+  }
 </style>
 </Layout>
